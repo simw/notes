@@ -1,0 +1,18 @@
+
+/**
+ * Blockquotes
+ */
+ blockquote {
+  color: $grey-color;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #eef;
+  padding-left: $spacing-unit / 2;
+  @include relative-font-size(0.875);
+  letter-spacing: -1px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
