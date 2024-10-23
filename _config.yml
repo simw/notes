@@ -8,11 +8,14 @@ github_username:  simw
 
 # Build settings
 theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
 
 minima:
   date_format: "%Y-%m-%d"
+
+google_analytics: G-KS2D7TVLWM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
