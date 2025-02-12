@@ -65,11 +65,11 @@ An AI Agent will have at least some of the following components:
 
 - __An entry point__: how is the agent triggered, and how are the goals supplied? For an LLM with a chat interface, it may be triggered by the user entering text and pressing enter, with goals added  by enriching the text to make the full LLM prompt. But for others, the trigger may be audio (eg ‘Hey Siri’) or visual, with at least some of the goals also supplied through audio or video.
 - __An orchestrator__ (optional): how do the different tasks get triggered throughout the agent’s episode? A common approach is to have a central orchestrator dictating what gets triggered and when, with that orchestrator being an AI Model itself. The tools can then follow call-and-response, returning information back to the orchestrator so that it can decide on the next steps. Another approach is message passing: each model takes its inputs, and then sends its outputs onto the next task through a message, where no central orchestrator is needed. This is potentially more powerful, but probably more difficult to create, follow and debug.
-- __Linear tasks__ (tasks with only one output path):
+- __Linear tasks__ (tasks with only one output path)
 - __Branching Tasks__ (tasks with more than one output path)
 
 ## Other References
 
-- [https://huyenchip.com/2025/01/07/agents.html]
-- [https://www.anthropic.com/research/building-effective-agents]
-- [https://www.ibm.com/think/insights/top-ai-agent-frameworks]
+- [https://huyenchip.com/2025/01/07/agents.html](https://huyenchip.com/2025/01/07/agents.html)
+- [https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)
+- [https://www.ibm.com/think/insights/top-ai-agent-frameworks](https://huyenchip.com/2025/01/07/agents.html)
