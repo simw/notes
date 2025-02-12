@@ -1,9 +1,9 @@
 title: Notes
 description: >-
   General notes.
-baseurl: "/notes/"
-domain: "simw.github.io"
-url: "https://simw.github.io"
+baseurl: "/"
+domain: "simw.pages.io"
+url: "https://simw.pages.io"
 github_username:  simw
 
 # Build settings
@@ -14,8 +14,6 @@ plugins:
 
 minima:
   date_format: "%Y-%m-%d"
-
-google_analytics: G-KS2D7TVLWM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
