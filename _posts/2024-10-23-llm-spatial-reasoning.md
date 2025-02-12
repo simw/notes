@@ -2,7 +2,7 @@
 layout: post
 title: "Can an LLM do spatial reasoning?"
 date: "2024-10-23 00:00:00 -0000"
-categories: llms
+categories: ai
 ---
 
 Ask your favorite LLM a simple geometry question, and it is likely to get it right. Triangles, shapes, angles, it knows all the basics. But delve a little deeper, and it can quickly go off the rails.
