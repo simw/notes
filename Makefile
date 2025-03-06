@@ -9,7 +9,7 @@ clean:
 
 .PHONY: build
 build:
-	cd notes && bundle exec jekyll build --destination=../_site
+	cd notes && bundle install && bundle exec jekyll build --destination=../_site
 
 
 .PHONY: serve
