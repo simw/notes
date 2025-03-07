@@ -4,13 +4,13 @@ description: >-
 baseurl: "/"
 domain: "simw.pages.dev"
 url: "https://simw.pages.dev"
-github_username:  simw
 
 # Build settings
 theme: minima
 show_excerpts: true
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 minima:
   date_format: "%Y-%m-%d"
